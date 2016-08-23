@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+
+form {
+	width: 360px;
+}
+
+div {
+	width: 100%;
+}
+
+label{
+	width: 15%;	
+	display: inline-block;
+} 
+
+[for="+"] {
+	width: 3%;
+}
+
+input{
+	width: 37%;	
+}
+
+button {
+	width: 30%;
+	margin: 2% 35%;
+}

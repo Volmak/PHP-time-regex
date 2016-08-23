@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+form {
+	width: 240px;
+}
+
+div, input {
+	width: 100%;
+}
+button {
+	width: 30%;
+	margin: 2% 35%;
+}
