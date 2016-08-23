@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Regex</title>
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/03.js"></script>
+</head>
+<body>
+	<form style="width:420px;" method="post">
+	<style>
+		form {width: 420px;}
+		.input{
+			border: 1px solid black;
+			text-align:left;
+		}
+		.submit {background-color: lightgrey;}
+		/* 	This is here on purpose!!! It's sent with ajax and verified as valid CSS	*/
+	</style>
+		<textarea class="input" id="text" rows="4" cols="50">
+Now this is something! I called Ivan Stefanov on 0885/35-25-44, but +359 879 555 478 answered, and it was Ivan Jordanov.
+<?= 'Valid PHP Statement' ?> <?php $a = 999; $b = 11111; ?>
+CH 2593 AH, C5432AK, CT 8943 AK, BA 5421 A, CT3221AC
+gmail@gmail.com, ivan_stefanov@abv.bg, bashibozuk@yahoo.com, Vasko@ittalents.bg, FishCom8@gmail.com
+<?php	while($unsolved){if($x >= $y * 2048){$unsolved = false} else {$x += $z / 16384}} ?>
+SELECT CustomerName,City FROM Customers; 
+SELECT * FROM Customers; 
+		</textarea>
+		<button class="submit" type="submit">Regex search!</button>
+	</form>
+	<p></p>	<p></p>	<p></p>	<p></p>	<p></p>	<p></p>	<p></p>	<p></p>
+	<p></p>	<p></p>	<p></p>	<p></p>	<p></p>	<p></p>	<p></p>
+</body>
+</html>
